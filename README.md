@@ -6,9 +6,11 @@
  - the rooms, described by names and position: <name> <pos x> <pos y>
  - special rooms, like start and end, prefixed with ##start or ##end
  - pipes between rooms, thats the path ants will use to move: <room a>-<room b>
+ - comments prefixed with # character
   
   For example, a basic anthill will be:
 
+   100
 
    ##start  
    start   0   0  
@@ -23,3 +25,11 @@
    start-roomb  
    rooma-end  
    roomb-end  
+
+ Next the program write the moves as follow:
+  - L<ant number>-<room>
+ 
+ An important rule is also that there can only be one ant per room, except in start and end.
+ 
+ A typical output is:  
+ ![lem_in_2](https://user-images.githubusercontent.com/21102863/29680498-fff3f02c-8904-11e7-86ab-ee40c3b7c6c1.png)
