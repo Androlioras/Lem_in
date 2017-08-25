@@ -9,13 +9,17 @@
   
   For example, a basic anthill will be:
 
-##start
-start   0   0
-##end
-end     10  10
-rooma   3   3
-roomb   7   7
-start-rooma
-start-roomb
-rooma-end
-roomb-end
+
+   ##start  
+   start   0   0  
+
+   ##end  
+   end     10  10  
+
+   rooma   3   3  
+   roomb   7   7  
+
+   start-rooma  
+   start-roomb  
+   rooma-end  
+   roomb-end  
